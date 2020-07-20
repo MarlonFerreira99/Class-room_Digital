@@ -1,5 +1,5 @@
-<h1 align="center" style="color: #167FFC"> Class-room Digital
-    <img src="">
+<h1 align="center" style="color: #167FFC"> 
+    Class-room Digital
 </h1
 
 <h1 align="center">
