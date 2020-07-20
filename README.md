@@ -38,10 +38,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ```bash
 
  # Clonar o repositório
- $ git clone https://github.com/MarlonFerreira99/FoodFy
+ $ git clone https://github.com/MarlonFerreira99/Class-room_Digital
 
  # Entrar no diretório
- $ cd FoodFy
+ $ cd Class-room_Digital
 
  # Instalar as dependências
  $ yarm install
