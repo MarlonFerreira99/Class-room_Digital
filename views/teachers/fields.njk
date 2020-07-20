@@ -1,0 +1,57 @@
+<div class="item">
+  <div>Avatar URL</div>
+  <div>
+    <input type="url" name="avatar_url" placeholder="http://" value="{{teacher.avatar_url}}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Professor</div>
+  <div>
+    <input type="text" name="name" placeholder="Nome do Professor" value="{{teacher.name}}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Data de nascimento</div>
+  <div>
+    <input type="date" name="birth" value="{{teacher.birth}}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Grau de escolaridade</div>
+  <div>
+    <select name="degree">
+      <option value="medio" {% if teacher.degree == 'medio' %} selected="selected" {% endif %}>Ensino Médio Completo
+      </option>
+      <option value="superior" {% if teacher.degree == 'superior' %} selected="selected" {% endif %}>Ensino Superior Completo
+      </option>
+      <option value="mestre" {% if teacher.degree == 'mestre' %} selected="selected" {% endif %}>Mestrado
+      </option>
+      <option value="doutor" {% if teacher.degree == 'doutor' %} selected="selected" {% endif %}>Doutorado
+      </option>
+    </select>
+  </div>
+</div>
+
+<div class="item">
+  <div>Tipo de aula</div>
+  <div>
+    <span>
+      <input type="radio" name="class_type" value="Presencial" {% if teacher.class_type == 'Presencial'%} checked="checked" {% endif %}>Presencial
+    </span>
+    <span>
+      <input type="radio" name="class_type" value="À distância" {% if teacher.class_type == 'À distância'%} checked="checked" {% endif %}>À distância
+    </span>
+  </div>
+</div>
+
+<div class="item">
+  <div>Disciplinas de atuação</div>
+  <div>
+    <input type="text" name="services" placeholder="Separe as matérias que pode lecionar por vírgula" value="{{teacher.services}}">
+  </div>
+</div>
+
+<button type="submit">Salvar</button>

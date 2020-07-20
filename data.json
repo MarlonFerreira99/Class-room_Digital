@@ -1,0 +1,48 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "birth": 1118707200000,
+      "avatar_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "name": "Estudante 1",
+      "email": "estudante@hotmail.com",
+      "school_year": "8EF",
+      "hours": "20"
+    },
+    {
+      "id": 2,
+      "birth": 1042675200000,
+      "avatar_url": "https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "João Silva",
+      "email": "joaosilva@gmail.com",
+      "school_year": "1EM",
+      "hours": "10"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Professor 1",
+      "avatar_url": "https://images.unsplash.com/photo-1528082992860-d520150d6f6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+      "birth": 662428800000,
+      "degree": "superior",
+      "class_type": "Presencial",
+      "services": [
+        "Matemática",
+        " Física",
+        " Programação"
+      ],
+      "created_at": 1593917266641
+    },
+    {
+      "id": 3,
+      "name": "José Souza",
+      "avatar_url": "https://images.unsplash.com/photo-1529952007382-4c3fc8d58993?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+      "birth": 768182400000,
+      "degree": "mestre",
+      "class_type": "Presencial",
+      "services": "Português, Sociologia, Filosofia",
+      "created_at": 1594214621092
+    }
+  ]
+}

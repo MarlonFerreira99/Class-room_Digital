@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    {% block head %}
+        <title>Class-room dital</title>
+    {% endblock %}
+   
+    <link rel="stylesheet" href="/styles.css"> 
+
+  </head>
+
+  <body>
+    <header>
+      <div class="links">
+        <a href="/teachers">Professores</a>
+        <a href="/students">Estudantes</a>
+      </div>
+    </header>
+
+    {% block content %}
+    
+    {% endblock %}
+
+    <script src="/scripts.js"></script>
+
+  </body>
+</html>
